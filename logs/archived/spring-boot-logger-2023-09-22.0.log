@@ -1,0 +1,27 @@
+2023-09-22 17:01:02,574 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-4 housekeeper] HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1d44m23s355ms728µs100ns).
+2023-09-22 17:01:02,731 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-5 housekeeper] HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=1d44m23s355ms478µs99ns).
+2023-09-22 17:01:02,305 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-3 housekeeper] HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=1d44m23s355ms539µs799ns).
+2023-09-22 17:01:00,986 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d44m23s355ms602µs700ns).
+2023-09-22 17:01:02,118 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-2 housekeeper] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1d44m23s355ms971µs500ns).
+2023-09-22 17:01:04,027 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-6 housekeeper] HikariPool-6 - Thread starvation or clock leap detected (housekeeper delta=1d44m23s355ms322µs100ns).
+2023-09-22 17:01:04,027 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-7 housekeeper] HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=1d44m23s355ms320µs500ns).
+2023-09-22 17:22:42,394 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(46)-127.0.0.1] Application shutdown requested.
+2023-09-22 17:22:42,490 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(46)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8080"]
+2023-09-22 17:22:42,492 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(46)-127.0.0.1] Stopping service [Tomcat]
+2023-09-22 17:22:42,643 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(46)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-09-22 17:22:43,617 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(46)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2023-09-22 17:22:43,840 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(46)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8080"]
+2023-09-22 17:22:43,865 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(46)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'user'
+2023-09-22 17:22:43,867 INFO c.z.h.HikariDataSource [RMI TCP Connection(46)-127.0.0.1] HikariPool-7 - Shutdown initiated...
+2023-09-22 17:23:15,303 WARN c.z.h.p.HikariPool [RMI TCP Connection(46)-127.0.0.1] Timed-out waiting for add connection executor to shutdown
+2023-09-22 17:23:15,309 INFO c.z.h.HikariDataSource [RMI TCP Connection(46)-127.0.0.1] HikariPool-7 - Shutdown completed.
+2023-09-22 17:23:15,311 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(46)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'sms'
+2023-09-22 17:23:15,313 INFO c.z.h.HikariDataSource [RMI TCP Connection(46)-127.0.0.1] HikariPool-6 - Shutdown initiated...
+2023-09-22 17:23:34,020 INFO c.z.h.HikariDataSource [RMI TCP Connection(46)-127.0.0.1] HikariPool-6 - Shutdown completed.
+2023-09-22 17:23:34,024 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(46)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'smsbulk'
+2023-09-22 17:23:34,028 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(46)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'smsbulkim'
+2023-09-22 17:23:34,031 INFO c.z.h.HikariDataSource [RMI TCP Connection(46)-127.0.0.1] HikariPool-4 - Shutdown initiated...
+2023-09-22 17:24:04,042 WARN c.z.h.p.HikariPool [RMI TCP Connection(46)-127.0.0.1] Timed-out waiting for add connection executor to shutdown
+2023-09-22 17:24:04,043 INFO c.z.h.HikariDataSource [RMI TCP Connection(46)-127.0.0.1] HikariPool-4 - Shutdown completed.
+2023-09-22 17:24:04,045 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(46)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'smsRealtimeBackup'
+2023-09-22 17:24:04,046 INFO c.z.h.HikariDataSource [RMI TCP Connection(46)-127.0.0.1] HikariPool-3 - Shutdown initiated...

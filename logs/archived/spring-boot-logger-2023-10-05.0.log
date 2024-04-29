@@ -1,0 +1,105 @@
+2023-10-05 12:06:37,316 INFO o.s.b.StartupInfoLogger [main] Starting MsmsPerformanceMonitorApplication using Java 17.0.6 with PID 10344 (D:\Office\mSMS_performance_monitor\target\classes started by MALEESHAF in D:\Office\mSMS_performance_monitor)
+2023-10-05 12:06:37,323 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-10-05 12:06:40,272 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-05 12:06:40,391 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interfaces.
+2023-10-05 12:06:40,395 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-05 12:06:40,406 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2023-10-05 12:06:40,407 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-05 12:06:40,426 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interfaces.
+2023-10-05 12:06:40,433 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-05 12:06:40,470 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 36 ms. Found 4 JPA repository interfaces.
+2023-10-05 12:06:40,473 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-05 12:06:40,498 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 23 ms. Found 3 JPA repository interfaces.
+2023-10-05 12:06:40,500 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-05 12:06:40,514 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2023-10-05 12:06:40,515 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-05 12:06:40,531 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2023-10-05 12:06:42,434 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-10-05 12:06:42,454 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-05 12:06:42,456 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-10-05 12:06:42,457 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-10-05 12:06:42,905 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-10-05 12:06:42,906 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5509 ms
+2023-10-05 12:06:44,210 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: smsBulkBackup]
+2023-10-05 12:06:44,403 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-10-05 12:06:45,689 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-10-05 12:06:46,016 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23a78c77
+2023-10-05 12:06:46,018 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-10-05 12:06:46,079 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-10-05 12:06:47,309 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-05 12:06:47,327 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'smsBulkBackup'
+2023-10-05 12:06:47,367 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: smsRealtime]
+2023-10-05 12:06:47,446 INFO c.z.h.HikariDataSource [main] HikariPool-2 - Starting...
+2023-10-05 12:06:47,545 INFO c.z.h.p.HikariPool [main] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63ede2a0
+2023-10-05 12:06:47,547 INFO c.z.h.HikariDataSource [main] HikariPool-2 - Start completed.
+2023-10-05 12:06:47,554 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-10-05 12:06:47,648 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-05 12:06:47,649 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'smsRealtime'
+2023-10-05 12:06:47,671 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: smsRealtimeBackup]
+2023-10-05 12:06:47,725 INFO c.z.h.HikariDataSource [main] HikariPool-3 - Starting...
+2023-10-05 12:06:47,747 INFO c.z.h.p.HikariPool [main] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ff40324
+2023-10-05 12:06:47,748 INFO c.z.h.HikariDataSource [main] HikariPool-3 - Start completed.
+2023-10-05 12:06:47,750 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-10-05 12:06:47,815 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-05 12:06:47,816 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'smsRealtimeBackup'
+2023-10-05 12:06:47,835 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: smsbulkim]
+2023-10-05 12:06:47,937 INFO c.z.h.HikariDataSource [main] HikariPool-4 - Starting...
+2023-10-05 12:06:47,979 INFO c.z.h.p.HikariPool [main] HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a3375d8
+2023-10-05 12:06:47,980 INFO c.z.h.HikariDataSource [main] HikariPool-4 - Start completed.
+2023-10-05 12:06:47,987 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-10-05 12:06:48,222 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-05 12:06:48,223 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'smsbulkim'
+2023-10-05 12:06:48,230 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: smsbulk]
+2023-10-05 12:06:48,363 INFO c.z.h.HikariDataSource [main] HikariPool-5 - Starting...
+2023-10-05 12:06:48,424 INFO c.z.h.p.HikariPool [main] HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f746160
+2023-10-05 12:06:48,425 INFO c.z.h.HikariDataSource [main] HikariPool-5 - Start completed.
+2023-10-05 12:06:48,438 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-10-05 12:06:48,621 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-05 12:06:48,622 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'smsbulk'
+2023-10-05 12:06:48,654 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: sms]
+2023-10-05 12:06:48,750 INFO c.z.h.HikariDataSource [main] HikariPool-6 - Starting...
+2023-10-05 12:06:49,135 INFO c.z.h.p.HikariPool [main] HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61aaec51
+2023-10-05 12:06:49,136 INFO c.z.h.HikariDataSource [main] HikariPool-6 - Start completed.
+2023-10-05 12:06:49,138 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-10-05 12:06:49,186 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-05 12:06:49,187 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sms'
+2023-10-05 12:06:49,216 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: user]
+2023-10-05 12:06:49,325 INFO c.z.h.HikariDataSource [main] HikariPool-7 - Starting...
+2023-10-05 12:06:49,390 INFO c.z.h.p.HikariPool [main] HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28446b06
+2023-10-05 12:06:49,391 INFO c.z.h.HikariDataSource [main] HikariPool-7 - Start completed.
+2023-10-05 12:06:49,394 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-10-05 12:06:49,562 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-05 12:06:49,585 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'user'
+2023-10-05 12:06:50,239 WARN o.s.c.LocalVariableTableParameterNameDiscoverer [main] Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.MSMSPerformanceMonitor.user.repository.RefreshTokenRepository
+2023-10-05 12:06:50,387 WARN o.s.c.LocalVariableTableParameterNameDiscoverer [main] Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.MSMSPerformanceMonitor.smsbulk.repository.BulkSmsRepository
+2023-10-05 12:06:50,837 WARN o.s.c.LocalVariableTableParameterNameDiscoverer [main] Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.MSMSPerformanceMonitor.smsbulk.repository.SMSLoadSummeryCopyRepository
+2023-10-05 12:06:51,282 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-05 12:06:55,051 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-10-05 12:06:55,501 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-05 12:06:55,513 INFO o.s.b.StartupInfoLogger [main] Started MsmsPerformanceMonitorApplication in 19.209 seconds (process running for 21.769)
+2023-10-05 12:16:27,254 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(17)-127.0.0.1] Application shutdown requested.
+2023-10-05 12:16:27,467 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(17)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8080"]
+2023-10-05 12:16:27,467 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(17)-127.0.0.1] Stopping service [Tomcat]
+2023-10-05 12:16:27,476 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(17)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8080"]
+2023-10-05 12:16:27,535 INFO o.a.j.l.DirectJDKLog [RMI TCP Connection(17)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8080"]
+2023-10-05 12:16:27,572 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(17)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'user'
+2023-10-05 12:16:27,574 INFO c.z.h.HikariDataSource [RMI TCP Connection(17)-127.0.0.1] HikariPool-7 - Shutdown initiated...
+2023-10-05 12:16:27,583 INFO c.z.h.HikariDataSource [RMI TCP Connection(17)-127.0.0.1] HikariPool-7 - Shutdown completed.
+2023-10-05 12:16:27,584 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(17)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'sms'
+2023-10-05 12:16:27,584 INFO c.z.h.HikariDataSource [RMI TCP Connection(17)-127.0.0.1] HikariPool-6 - Shutdown initiated...
+2023-10-05 12:16:27,596 INFO c.z.h.HikariDataSource [RMI TCP Connection(17)-127.0.0.1] HikariPool-6 - Shutdown completed.
+2023-10-05 12:16:27,596 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(17)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'smsbulk'
+2023-10-05 12:16:27,597 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(17)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'smsbulkim'
+2023-10-05 12:16:27,598 INFO c.z.h.HikariDataSource [RMI TCP Connection(17)-127.0.0.1] HikariPool-4 - Shutdown initiated...
+2023-10-05 12:16:27,612 INFO c.z.h.HikariDataSource [RMI TCP Connection(17)-127.0.0.1] HikariPool-4 - Shutdown completed.
+2023-10-05 12:16:27,614 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(17)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'smsRealtimeBackup'
+2023-10-05 12:16:27,615 INFO c.z.h.HikariDataSource [RMI TCP Connection(17)-127.0.0.1] HikariPool-3 - Shutdown initiated...
+2023-10-05 12:16:27,630 INFO c.z.h.HikariDataSource [RMI TCP Connection(17)-127.0.0.1] HikariPool-3 - Shutdown completed.
+2023-10-05 12:16:27,631 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(17)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'smsRealtime'
+2023-10-05 12:16:27,632 INFO c.z.h.HikariDataSource [RMI TCP Connection(17)-127.0.0.1] HikariPool-2 - Shutdown initiated...
+2023-10-05 12:16:27,643 INFO c.z.h.HikariDataSource [RMI TCP Connection(17)-127.0.0.1] HikariPool-2 - Shutdown completed.
+2023-10-05 12:16:27,644 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(17)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'smsBulkBackup'
+2023-10-05 12:16:27,645 INFO c.z.h.HikariDataSource [RMI TCP Connection(17)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-10-05 12:16:27,688 INFO c.z.h.HikariDataSource [RMI TCP Connection(17)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2023-10-05 12:16:27,688 INFO c.z.h.HikariDataSource [RMI TCP Connection(17)-127.0.0.1] HikariPool-5 - Shutdown initiated...
+2023-10-05 12:16:27,695 INFO c.z.h.HikariDataSource [RMI TCP Connection(17)-127.0.0.1] HikariPool-5 - Shutdown completed.
